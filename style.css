@@ -1,0 +1,27 @@
+body {
+	background: #e7e7e7;
+}
+.container {
+	max-width: 1200px;
+    margin: 0 auto;
+}
+.names div {
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid blue;
+	float: left;
+}
+.names:before {
+	content: "";
+	display: block;
+	clear: both;
+}
+.names div img {
+	width: 100%;
+	height: 100%;
+}
+h1 {
+	color: #1d39a3;
+}
